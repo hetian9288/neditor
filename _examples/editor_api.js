@@ -91,6 +91,7 @@
             'plugins/serverparam.js',
             'plugins/insertfile.js',
             'plugins/xssFilter.js',
+            'plugins/store2.js',
             'ui/ui.js',
             'ui/uiutils.js',
             'ui/uibase.js',

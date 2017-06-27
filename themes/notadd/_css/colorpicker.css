@@ -1,7 +1,7 @@
 /* 颜色弹出菜单 */
 .edui-notadd .edui-colorpicker-topbar {
     height: 27px;
-    width: 200px;
+    width: 280px;
     /*border-bottom: 1px gray dashed;*/
 }
 
@@ -9,9 +9,32 @@
     height: 20px;
     border: 1px solid #ccc;
     margin-left: 1px;
-    width: 128px;
+    width: 58px;
     float: left;
     border-radius: 5px;
+}
+
+.edui-notadd .edui-colorpicker-value {
+    height: 22px;
+    position: relative;
+    border: 1px solid #ccc;
+    width: 143px;
+    float: left;
+    margin-left: 6px;
+    border-radius: 5px;
+    line-height: 22px;
+    font-size: 13px;
+    padding: 0 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.edui-notadd .edui-colorpicker-value input{
+    display: inline-block;
+    position: absolute;
+    border: 0px;
+    line-height: 22px;
+    outline: none;
+    box-sizing: border-box;
 }
 
 .edui-notadd .edui-colorpicker-nocolor {
@@ -118,4 +141,48 @@
     border: 1px solid black;
     background: white;
     opacity: .8;
+}
+
+/*new*/
+.edui-colorpicker-box{}
+.edui-colorpicker-title{
+    font-size: 13px;
+    color: #999;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.edui-colorpicker-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.edui-colorpicker-item:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.edui-colorpicker-innerBox{
+    display: inline-flex;
+}
+.edui-colorpicker-item span{
+    display: flex;
+    box-sizing: border-box;
+    width: 31.11111111111px;
+    height: 31.11111111111px;
+    padding: 2px;
+}
+.edui-colorpicker-item span i {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+}
+.edui-colorpicker-item span i.undefined-color:after{
+    content: '';
+    display: block;
+    width: 150%;
+    border-top: 1px solid #ff0000;
+    transform: rotate(45deg);
+    transform-origin: 0;
 }

@@ -1,5 +1,6 @@
 /* 工具栏 */
 .edui-notadd .edui-toolbar {
+    display: block !important;
     cursor: default;
     -webkit-user-select: none;
     -moz-user-select: none;

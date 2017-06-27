@@ -1,6 +1,6 @@
 ;(function(window) {
 
-  var svgSprite = '<svg>' +
+  var svgSprite = '<svg style="display: none">' +
     '' +
     '<symbol id="edui-for-close" viewBox="0 0 1024 1024">' +
     '' +

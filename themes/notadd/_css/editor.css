@@ -1,4 +1,7 @@
 /*UI工具栏、编辑区域、底部*/
+.edui-notadd * {
+    box-sizing: content-box;
+}
 .edui-notadd .edui-editor {
     border: 1px solid #e5e5e5;
     background-color: white;

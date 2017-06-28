@@ -16,7 +16,7 @@
     /*width: 9px;*/
 
     font-family:"edui-notadd" !important;
-    font-size: 26px;
+    /*font-size: 26px;*/
     font-style:normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -32,7 +32,7 @@
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    margin: 0 10px;
+    margin: 0 3px;
 }
 
 .edui-notadd .edui-toolbar .edui-combox-body .edui-splitborder {

@@ -1,5 +1,55 @@
-/*可以在这里添加你自己的css*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-size: 16px
+}
+* {
+    margin: 0;
+    padding: 0
+}
+a {
+    color: #607fa6;
+    text-decoration: none
+}
+html {
+    line-height: 1.6;
+    overflow: hidden
+}
+body {
+    margin: 0;
+    padding: 8px 90px;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif
+}
+.view {
+    word-break: break-word;
+    cursor: text;
+    min-height: 440px;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    overflow: hidden
+}
+p {
+    clear: both
+}
 img {
+    *zoom: 1;
     max-width: 100%;
-    height: auto;
+    *max-width: 96%;
+    height: auto!important
+}
+iframe {
+    width: 301px!important;
+    border: 0;
+    background-color: none
+}
+blockquote {
+    margin: 0;
+    padding-left: 10px;
+    border-left: 3px solid #dbdbdb
 }

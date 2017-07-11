@@ -66,7 +66,7 @@ module.exports = function (grunt) {
                         return '// ' + filename + '\n' + src.replace('/_css/', '/css/') + '\n';
                     }
                 },
-                src: Util.fetchScripts("_examples/editor_api.js", Util.jsBasePath),
+                src: Util.fetchScripts("_examples/my_editor_api.js", Util.jsBasePath),
                 dest: disDir + packageJson.name + '.all.js'
             },
             parse: {

@@ -8,6 +8,8 @@ php/upload
 net/upload
 asp/upload
 node/upload
+_examples/my_editor_api.js
+
 
 
 ###############
@@ -18,6 +20,7 @@ node/upload
 *.docx
 *.xml
 npm-debug.log
+Gruntfile.js
 
 
 
